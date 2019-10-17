@@ -1,0 +1,44 @@
+{
+  "login_username_is_null": {
+    "username": "",
+    "password": "123456",
+    "veritycode": "8888",
+    "is_success": false,
+    "expect": "用户名不能为空"
+  },
+  "login_password_is_null": {
+    "username": "13012345678",
+    "password": "",
+    "veritycode": "8888",
+    "is_success": false,
+    "expect": "密码不能为空"
+  },
+  "login_verity_code_is_null": {
+    "username": "13012345678",
+    "password": "123456",
+    "veritycode": "",
+    "is_success": false,
+    "expect": "验证码不能为空"
+  },
+  "login_username_is_not_exist": {
+    "username": "13212211111",
+    "password": "123456",
+    "veritycode": "8888",
+    "is_success": false,
+    "expect": "账户不存在"
+  },
+  "login_username_is_error": {
+    "username": "13212211",
+    "password": "123456",
+    "veritycode": "8888",
+    "is_success": false,
+    "expect": "用户名错误"
+  },
+  "login_success": {
+    "username": "13012345678",
+    "password": "123456",
+    "veritycode": "8888",
+    "is_success": true,
+    "expect": "登录成功"
+  }
+}
